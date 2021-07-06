@@ -1,0 +1,66 @@
+// Navbar
+#navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background: $bg-image-overlay;
+  width: 100%;
+
+  .logo {
+    font-size: 2rem;
+  }
+  .nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+
+    a {
+      display: inline-block;
+      color: $text-white;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+  }
+
+  // hamburger
+  .hamburger {
+    // default for desktop is display none
+    display: none;
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    .nav-ul {
+      display: none;
+      width: 100%;
+
+      a {
+        padding: 10px;
+      }
+    }
+
+    .nav-ul.show {
+      display: flex;
+      flex-direction: column;
+      background: $bg-image-overlay;
+    }
+
+    .hamburger {
+      // width: 100%;
+      display: block;
+    }
+  }
+}

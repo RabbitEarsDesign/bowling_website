@@ -1,0 +1,27 @@
+.bottom-line {
+  width: 50%;
+  height: 2px;
+  background: $primary-color;
+  margin: 0 auto;
+}
+
+// Buttons
+.btn {
+  display: block;
+  text-transform: uppercase;
+  margin: 1rem 0rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.btn-primary {
+  color: $primary-color;
+}
+
+// Container
+.container {
+  width: 90%;
+  margin: 0 auto;
+}

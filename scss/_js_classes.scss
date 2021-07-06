@@ -1,0 +1,22 @@
+// ITEM ANIMATION EVENT
+// This is where I can change the animation for JS scroll items
+// .js-scroll is the class used to select the elements that we want to move on scroll
+.js-scroll {
+  opacity: 0;
+  transition: opacity 700ms, transform 700ms;
+  transform: translateX(-100%);
+}
+// This is a way to alterante (even/odd) the animations
+.js-scroll:nth-last-of-type(odd) {
+  transform: translateX(100%);
+}
+// Allows all instances of .js-scroll to function
+.js-scroll.scrolled {
+  opacity: 1;
+  transform: translateX(0%);
+}
+// // //
+// Navbar
+.top {
+  background: none !important;
+}

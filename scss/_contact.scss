@@ -1,0 +1,68 @@
+#contact {
+  padding: 1rem;
+  .contact-header {
+    background: $primary-color;
+    color: $text-white;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .contact-container {
+    background: $bg-light;
+    color: $text-black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 0 auto;
+
+    .contact-group {
+      margin-top: 1rem;
+
+      #contact-form {
+        .form-group {
+          display: flex;
+          flex-direction: column;
+
+          label,
+          input {
+            display: block;
+          }
+
+          label {
+            margin-top: 0.5rem;
+          }
+
+          input {
+            padding: 0.5rem;
+            border-radius: 6px;
+          }
+        }
+      }
+
+      // Contact info section
+      h3 {
+        font-size: 2rem;
+        margin-bottom: 0.75rem;
+      }
+
+      h2 {
+        font-size: 1rem;
+      }
+
+      p {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}
+
+// Desktop Version
+// *keep in mind that in some partials i have coded mobile first and others i have done desktop first
+@media (min-width: 780px) {
+  #contact {
+    .contact-container {
+      flex-direction: row;
+    }
+  }
+}

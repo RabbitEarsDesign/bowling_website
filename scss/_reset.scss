@@ -1,0 +1,40 @@
+// General Reset
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+input {
+  border: none;
+}
+
+textarea {
+  border: none;
+}
+
+// Image Reset
+img {
+  object-fit: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+}

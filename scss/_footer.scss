@@ -1,0 +1,35 @@
+#footer {
+  background: $primary-color;
+
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0;
+
+    .footer-group.logo {
+      position: relative;
+      width: 30px;
+      height: 30px;
+      .b1,
+      .b2 {
+        position: absolute;
+        font-size: 3rem;
+        font-weight: 100;
+      }
+
+      .b1 {
+        top: -10%;
+        left: -15%;
+      }
+
+      .b2 {
+        top: 17%;
+        left: 10%;
+      }
+    }
+  }
+}

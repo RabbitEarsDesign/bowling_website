@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Bowling Website</title>
+  </head>
+  <body id="home">
+    <!-- navbar -->
+    <nav id="navbar" class="navbar loaded">
+      <div class="logo">B</div>
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-ul" id="nav-ul">
+        <li><a href="#rates">Rates</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+
+    <header class="hero">
+      <div class="content">
+        <h1>Welcome to Bobs Bowling</h1>
+        <p>Family owned and operated since 1994</p>
+        <a href="#about" class="btn"
+          >Read More <i class="fas fa-chevron-right"></i
+        ></a>
+      </div>
+    </header>
+
+    <!-- Section: Rates -->
+    <section id="rates">
+      <div class="rates-container">
+        <h2>General Pricing</h2>
+        <div class="rates-content">
+          <div class="rates-img">
+            <img src="./img/rates.jpg" alt="rates" />
+          </div>
+          <div class="rates-info">
+            <!-- 1 Hour of play -->
+            <div class="pricing-group">
+              <li>
+                <h3>1 Hour of open play</h3>
+                <h3>$9.99</h3>
+              </li>
+              <li>
+                <small
+                  >Pricing is per person
+                  <span>Shoe rental is not included</span></small
+                >
+              </li>
+            </div>
+            <!-- Play by the game -->
+            <div class="pricing-group">
+              <li>
+                <h3>Open play by the game</h3>
+                <h3>$5.00</h3>
+              </li>
+              <li>
+                <small
+                  >Pricing is per person
+                  <span>Shoe rental is not included</span></small
+                >
+              </li>
+            </div>
+            <!-- Shoe rental -->
+            <div class="pricing-group">
+              <li>
+                <h3>Shoe rental</h3>
+                <h3>$4.00</h3>
+              </li>
+              <li><small>Pricing is per person</small></li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Reviews -->
+    <section id="reviews">
+      <h1>What Our Customers Say...</h1>
+      <div class="carousel-wrapper">
+        <div class="carousel">
+          <div class="review-card initial">
+            <div>
+              <img
+                src="./img/people/person1.jpg"
+                alt="person"
+                class="review-img"
+              />
+              <h3>John Doe</h3>
+              <div class="bottom-line"></div>
+            </div>
+            <p>
+              <span>My family's favorite place to bowl.</span> We love coming to
+              Bob's Bowling, they always treat us like their own family.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div>
+              <img
+                src="./img/people/person2.jpg"
+                alt="person"
+                class="review-img"
+              />
+              <h3>Emily Johnson</h3>
+              <div class="bottom-line"></div>
+            </div>
+            <p>
+              <span>Lorem, ipsum.</span> Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Minima velit natus asperiores, quos molestiae
+              doloribus laboriosam harum deserunt eius cumque ducimus fuga totam
+              magni laudantium consequatur autem illo magnam omnis.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div>
+              <img
+                src="./img/people/person3.jpg"
+                alt="person"
+                class="review-img"
+              />
+              <h3>Jim Stevens</h3>
+              <div class="bottom-line"></div>
+            </div>
+            <p>
+              <span>Best Bowling in Lafayette!</span> I have been coming here
+              for tournements for 5 years and the staff treat me like their
+              friend more than a customer.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div>
+              <img
+                src="./img/people/person4.jpg"
+                alt="person"
+                class="review-img"
+              />
+              <h3>Amanda Marcus</h3>
+              <div class="bottom-line"></div>
+            </div>
+            <p>
+              <span>My family's favorite place to bowl.</span> We love coming to
+              Bob's Bowling, they always treat us like their own family.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+
+          <div class="carousel_button--next">
+            <i class="fas fa-chevron-right fa-2x"></i>
+          </div>
+          <div class="carousel_button--prev">
+            <i class="fas fa-chevron-left fa-2x"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Events -->
+    <section id="events">
+      <div class="container">
+        <article class="event-card js-scroll">
+          <div>
+            <img
+              src="./img/events/img1.jpg"
+              alt="event"
+              class="event-card_img"
+            />
+          </div>
+          <div class="event-card_content">
+            <h2>Corporate Events</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              veniam quasi eum commodi eos! Nostrum id enim facilis libero
+              dolore similique praesentium cumque ut mollitia est! Quasi quo
+              omnis cupiditate alias labore similique dignissimos quisquam
+              doloremque debitis non. Esse dicta repudiandae molestias nobis ex
+              quas dolor nesciunt veritatis ipsam ipsum.
+            </p>
+            <a href="contact.html" class="btn btn-primary"
+              >Schedule Your Event <i class="fas fa-chevron-right"></i
+            ></a>
+          </div>
+        </article>
+
+        <article class="event-card js-scroll">
+          <div>
+            <img
+              src="./img/events/img2.jpg"
+              alt="event"
+              class="event-card_img"
+            />
+          </div>
+          <div class="event-card_content">
+            <h2>Kids Parties</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              veniam quasi eum commodi eos! Nostrum id enim facilis libero
+              dolore similique praesentium cumque ut mollitia est! Quasi quo
+              omnis cupiditate alias labore similique dignissimos quisquam
+              doloremque debitis non. Esse dicta repudiandae molestias nobis ex
+              quas dolor nesciunt veritatis ipsam ipsum.
+            </p>
+            <a href="contact.html" class="btn btn-primary"
+              >Schedule Your Event <i class="fas fa-chevron-right"></i
+            ></a>
+          </div>
+        </article>
+
+        <article class="event-card js-scroll">
+          <div>
+            <img
+              src="./img/events/img3.jpg"
+              alt="event"
+              class="event-card_img"
+            />
+          </div>
+          <div class="event-card_content">
+            <h2>Social Events</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              veniam quasi eum commodi eos! Nostrum id enim facilis libero
+              dolore similique praesentium cumque ut mollitia est! Quasi quo
+              omnis cupiditate alias labore similique dignissimos quisquam
+              doloremque debitis non. Esse dicta repudiandae molestias nobis ex
+              quas dolor nesciunt veritatis ipsam ipsum.
+            </p>
+            <a href="contact.html" class="btn btn-primary"
+              >Schedule Your Event <i class="fas fa-chevron-right"></i
+            ></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Section: About -->
+    <section id="about">
+      <div class="about-grid">
+        <div class="about-item map">
+          <div class="map-container">
+            <h2>Come visit us</h2>
+          </div>
+          <img src="./img/map.png" alt="map" />
+          <a
+            href="https://www.google.com/maps"
+            class="btn btn-map"
+            target="#blank"
+            ><i class="fas fa-search"></i>View on Google Maps</a
+          >
+        </div>
+        <div class="about-item story">
+          <h2>Our Story</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex tempore
+            harum doloremque odio id natus consequatur excepturi quos quidem
+            illum fugit, debitis labore deserunt dolores ipsa vel tenetur
+            distinctio amet, neque et hic delectus inventore? A officiis vel,
+            labore nesciunt aut provident quibusdam voluptas nihil enim nulla
+            molestiae aspernatur voluptatem veniam eligendi aliquid fugit?
+            Inventore delectus dicta eligendi numquam recusandae dolorem
+            cupiditate quo ratione asperiores in reprehenderit facere ipsa animi
+            molestias saepe voluptates, fuga nihil aspernatur itaque ut
+            dignissimos deserunt ea pariatur voluptate! Ipsum, earum assumenda
+            impedit, cumque dolore eligendi est perferendis odit laboriosam
+            delectus voluptatibus doloremque? Id, praesentium sed.
+          </p>
+        </div>
+        <div class="about-item hours">
+          <h2>Hours</h2>
+          <ul class="hours-list">
+            <li>
+              <p>Monday</p>
+              <p>12:00pm - 10:00pm</p>
+            </li>
+            <li>
+              <p>Tuesday</p>
+              <p>12:00pm - 10:00pm</p>
+            </li>
+            <li>
+              <p>Wednesday</p>
+              <p>12:00pm - 10:00pm</p>
+            </li>
+            <li>
+              <p>Thursday</p>
+              <p>12:00pm - 10:00pm</p>
+            </li>
+            <li>
+              <p>Friday</p>
+              <p>12:00pm - 10:00pm</p>
+            </li>
+            <li>
+              <p>Saturday</p>
+              <p>12:00pm - 8:00pm</p>
+            </li>
+            <li>
+              <p>Sunday</p>
+              <p>12:00pm - 8:00pm</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Contact -->
+    <section id="contact">
+      <div class="contact-header js-scroll">
+        <h1>Feedback? Contact Us Today!</h1>
+      </div>
+      <div class="contact-container js-scroll">
+        <div class="contact-group">
+          <!-- Contact form -->
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" name="first-name" id="first-name" />
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" name="last-name" id="last-name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" name="email" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="text" name="phone" id="phone" />
+            </div>
+            <div class="form-group">
+              <label for="date">Date of Visit</label>
+              <input type="date" name="date" id="date" />
+            </div>
+            <div class="form-group">
+              <label for="comments">Enter Your Comments</label>
+              <textarea
+                name="comments"
+                id="comments"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="contact-group">
+          <h3>Contact Information</h3>
+          <h2>Bob's Bowling Lafayette</h2>
+          <p>123 Smith Blvd, Lafyatte, CO 12345</p>
+          <p>P: (123)456-7890</p>
+          <h3>Holiday Hours</h3>
+          <h2>President's Day</h2>
+          <p>11:00am - 11:00pm</p>
+          <h2>Thanksgiving Day</h2>
+          <p>11:00am - 5:00pm</p>
+          <h2>Christmas Eve</h2>
+          <p>11:00am - 5:00pm</p>
+          <h2>Christmas Day</h2>
+          <p>Closed</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-group logo">
+          <h1 class="b">B</h1>
+        </div>
+
+        <div class="footer-group">
+          <p>&copy; 2021 Bob's Bowling, LLC</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <script src="carousel.js"></script>
+  </body>
+</html>

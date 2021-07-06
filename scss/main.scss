@@ -1,0 +1,19 @@
+@import "variables";
+@import "reset";
+@import "hero";
+
+@import "reviews";
+@import "utilities";
+@import "navbar";
+@import "events";
+@import "about";
+@import "rates";
+@import "footer";
+@import "contact";
+@import "js_classes";
+body {
+  background-color: $bg-dark;
+  color: #fff;
+  font-family: $font-stack;
+  overflow-x: hidden;
+}

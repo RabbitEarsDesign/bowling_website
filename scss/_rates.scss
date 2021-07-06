@@ -1,0 +1,41 @@
+// Rates Section
+#rates {
+  background: $primary-color;
+
+  .rates-container {
+    h2 {
+      padding: 1rem;
+      font-size: 2rem;
+      border-bottom: 2px solid $light-color;
+    }
+
+    .rates-content {
+      display: flex;
+      flex-direction: column-reverse;
+
+      .rates-img {
+        img {
+          max-height: 400px;
+        }
+      }
+
+      .rates-info {
+        padding: 1rem;
+        .pricing-group {
+          margin-bottom: 1rem;
+
+          li {
+            display: flex;
+            justify-content: space-between;
+            margin: 0.25rem;
+
+            small {
+              font-size: 0.75rem;
+              color: $text-grey;
+            }
+          }
+        }
+      }
+    }
+  }
+}
