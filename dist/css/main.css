@@ -612,6 +612,12 @@ img {
   border-radius: 6px;
 }
 
+#contact .contact-container .contact-group #contact-form button {
+  padding: 5px 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
 #contact .contact-container .contact-group h3 {
   font-size: 2rem;
   margin-bottom: 0.75rem;
